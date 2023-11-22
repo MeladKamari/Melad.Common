@@ -3,15 +3,15 @@
         <RootNamespace>Melad.Common</RootNamespace>
         <AssemblyName>Melad.Common</AssemblyName>
         <PackageIcon>icon.jpg</PackageIcon>
-        <PackageId />
+        <PackageId>Melad.Common</PackageId>
         <Title>Melad.Common</Title>
         <Description>Common Packages</Description>
         <PackageProjectUrl>https://github.com/MeladKamari/Melad.Common</PackageProjectUrl>
-        <PackageLicenseUrl></PackageLicenseUrl>
         <RepositoryUrl>https://github.com/MeladKamari/Melad.Common</RepositoryUrl>
-        <RepositoryType>Public</RepositoryType>
+        <RepositoryType>git</RepositoryType>
         <PackageTags>C#,.Net</PackageTags>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageOutputPath>.</PackageOutputPath>
         <Version>1.0.4</Version>
     </PropertyGroup>
     <ItemGroup>
