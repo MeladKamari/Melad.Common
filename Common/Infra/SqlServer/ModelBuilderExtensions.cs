@@ -1,22 +1,32 @@
 ﻿using System.Reflection;
+using Humanizer;
+using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace Melad.Common.Infra.SqlServer;
+public class HumanizerPluralizer : IPluralizer
+{
+    public string Pluralize(string name)
+        => name?.Pluralize(inputIsKnownToBeSingular: false)!;
 
+    public string Singularize(string name)
+        => name?.Singularize(inputIsKnownToBePlural: false)!;
+}
 public static class ModelBuilderExtensions
 {
     /// <summary>
     /// Singularizin table name like Posts to Post or People to Person
     /// </summary>
     /// <param name="modelBuilder"></param>
-    // public static void AddSingularizingTableNameConvention(this ModelBuilder modelBuilder)
-    // {
-    //     Pluralizer pluralizer = new Pluralizer();
-    //     foreach (IMutableEntityType entityType in modelBuilder.Model.GetEntityTypes())
-    //     {
-    //         string tableName = entityType.GetTableName();
-    //         entityType.SetTableName(pluralizer.Singularize(tableName));
-    //     }
-    // }
+    public static void AddSingularizingTableNameConvention(this ModelBuilder modelBuilder)
+    {
+        IPluralizer pluralizer = new HumanizerPluralizer();
+        foreach (IMutableEntityType entityType in modelBuilder.Model.GetEntityTypes())
+        {
+            string tableName = entityType.GetTableName()!;
+            entityType.SetTableName(pluralizer.Singularize(tableName));
+        }
+    }
 
     /// <summary>
     ///     Set NEWSEQUENTIALID() sql function for all columns named "Id"
@@ -25,7 +35,7 @@ public static class ModelBuilderExtensions
     /// <param name="mustBeIdentity">Set to true if you want only "Identity" guid fields that named "Id"</param>
     public static void AddSequentialGuidForIdConvention(this ModelBuilder modelBuilder)
     {
-        //modelBuilder.AddDefaultValueSqlConvention("Id", typeof(Guid), "NEWSEQUENTIALID()");
+        modelBuilder.AddDefaultValueSqlConvention("Id", typeof(Guid), "NEWSEQUENTIALID()");
     }
 
     /// <summary>
@@ -35,15 +45,15 @@ public static class ModelBuilderExtensions
     /// <param name="propertyName">Name of property wants to set DefaultValueSql for</param>
     /// <param name="propertyType">Type of property wants to set DefaultValueSql for </param>
     /// <param name="defaultValueSql">DefaultValueSql like "NEWSEQUENTIALID()"</param>
-    // public static void AddDefaultValueSqlConvention(this ModelBuilder modelBuilder, string propertyName, Type propertyType, string defaultValueSql)
-    // {
-    //     foreach (IMutableEntityType entityType in modelBuilder.Model.GetEntityTypes())
-    //     {
-    //         IMutableProperty property = entityType.GetProperties().SingleOrDefault(p => p.Name.Equals(propertyName, StringComparison.OrdinalIgnoreCase));
-    //         if (property != null && property.ClrType == propertyType)
-    //             property.SetDefaultValueSql(defaultValueSql);
-    //     }
-    // }
+    public static void AddDefaultValueSqlConvention(this ModelBuilder modelBuilder, string propertyName, Type propertyType, string defaultValueSql)
+    {
+        foreach (IMutableEntityType entityType in modelBuilder.Model.GetEntityTypes())
+        {
+            IMutableProperty property = entityType.GetProperties().SingleOrDefault(p => p.Name.Equals(propertyName, StringComparison.OrdinalIgnoreCase))!;
+            if (property != null && property.ClrType == propertyType)
+                property.SetDefaultValueSql(defaultValueSql);
+        }
+    }
 
     /// <summary>
     ///     Set DeleteBehavior.Restrict by default for relations
@@ -91,7 +101,6 @@ public static class ModelBuilderExtensions
     {
         var types = assemblies.SelectMany(a => a.GetExportedTypes())
             .Where(c => c.IsClass && !c.IsAbstract && c.IsPublic && typeof(BaseType).IsAssignableFrom(c));
-
         foreach (var type in types)
             modelBuilder.Entity(type);
     }

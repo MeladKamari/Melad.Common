@@ -1,11 +1,11 @@
 ﻿namespace Melad.Common.WebFramework;
-public record SiteSettings
+public class AppSetting
 {
-    public JwtSettings JwtSettings { get; set; } = null!;
-    public IdentitySettings IdentitySettings { get; set; } = null!;
+    public JwtSetting JwtSetting { get; set; } = null!;
+    public IdentitySetting IdentitySetting { get; set; } = null!;
 }
 
-public record IdentitySettings
+public record IdentitySetting
 {
     public bool PasswordRequireDigit { get; set; }
     public int PasswordRequiredLength { get; set; }
@@ -15,7 +15,7 @@ public record IdentitySettings
     public bool RequireUniqueEmail { get; set; }
 }
 
-public record JwtSettings
+public record JwtSetting
 {
     public string SecretKey { get; set; } = null!;
     public string EncryptKey { get; set; } = null!;

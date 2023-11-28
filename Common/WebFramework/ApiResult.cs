@@ -1,4 +1,4 @@
-﻿using Melad.Common.Extentions;
+﻿using Melad.Common.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 

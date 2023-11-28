@@ -1,8 +1,9 @@
 using System.Globalization;
 using System.Security.Claims;
 using System.Security.Principal;
+using Melad.Common.Extensions;
 
-namespace Melad.Common.Extentions;
+namespace Melad.Common.Extensions;
 
 public static class IdentityExtensions
 {

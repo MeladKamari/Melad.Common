@@ -10,6 +10,7 @@ public static class CustomAddSerilog
     /// <summary>
     /// Add Serilog Console And Elastic
     /// </summary>
+    /// <param name="hostBuilder"></param>
     /// <param name="elasticUri"></param>
     /// <param name="userName"></param>
     /// <param name="password"></param>
@@ -27,10 +28,10 @@ public static class CustomAddSerilog
                 .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri($"{elasticUri}"))
                 {
                     IndexFormat = $"{Assembly.GetExecutingAssembly().GetName().Name!.ToLower().Replace(".", "-")}" +
-                                  $"-{environment?.ToLower().Replace(".", "-")}-{DateTime.UtcNow:yyyy-MM}",
+                                  $"-{environment?.ToLower().Replace(".", "-")}-{TimeProvider.System.GetUtcNow():yyyy-MM}",
                     ModifyConnectionSettings = x =>
                         x.BasicAuthentication(userName, password),
-                    FailureCallback = e => Console.WriteLine("Unable to submit event ElasticSearch" + e.MessageTemplate),
+                    FailureCallback = e => Console.WriteLine("Unable submit event to ElasticSearch" + e.MessageTemplate),
                     EmitEventFailure = EmitEventFailureHandling.WriteToSelfLog |
                                        EmitEventFailureHandling.WriteToFailureSink |
                                        EmitEventFailureHandling.RaiseCallback,

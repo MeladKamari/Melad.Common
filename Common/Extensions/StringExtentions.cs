@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-namespace Melad.Common.Extentions;
+namespace Melad.Common.Extensions;
 
 public static class StringExtensions
 {

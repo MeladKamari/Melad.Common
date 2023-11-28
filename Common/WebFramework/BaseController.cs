@@ -21,8 +21,5 @@ public class BaseController : ControllerBase
     {
         _mediator = mediator;
     }
-
-   
-
     #endregion
 }

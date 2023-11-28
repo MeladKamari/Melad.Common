@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 
-namespace Melad.Common.Extentions;
+namespace Melad.Common.Extensions;
 
 public static class EnumExtensions
 {
