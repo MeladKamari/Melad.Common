@@ -32,7 +32,7 @@ public class ApiResultFilterAttribute : ActionFilterAttribute
                     message = string.Join(" | ", errorMessages2);
                     break;
                 case var value when value != null && !(value is ProblemDetails):
-                    message = badRequestObjectResult?.Value?.ToString()!;
+                        message = badRequestObjectResult?.Value?.ToString()!;
                     break;
             }
 
@@ -45,7 +45,6 @@ public class ApiResultFilterAttribute : ActionFilterAttribute
             if (notFoundObjectResult.Value != null && !(notFoundObjectResult.Value is ProblemDetails))
                 message = notFoundObjectResult.Value.ToString()!;
 
-            //var apiResult = new ApiResult<object>(false, ApiResultStatusCode.NotFound, notFoundObjectResult.Value);
             var apiResult = new ApiResult(false, ApiResultStatusCode.NotFound, message!);
             context.Result = new JsonResult(apiResult) { StatusCode = notFoundObjectResult.StatusCode };
         }

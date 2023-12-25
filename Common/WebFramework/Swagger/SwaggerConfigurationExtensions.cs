@@ -6,6 +6,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
+using Path = System.IO.Path;
 using ServiceCollectionExtensions = Swashbuckle.AspNetCore.Filters.ServiceCollectionExtensions;
 
 namespace Melad.Common.WebFramework.Swagger;
@@ -42,11 +43,6 @@ public static class SwaggerConfigurationExtensions
             //Used in ServiceCollectionExtensions.AddMinimalMvc
             //.AddNewtonsoftJson(option => option.SerializerSettings.Converters.Add(new StringEnumConverter()));
             #endregion
-            //options.DescribeAllParametersInCamelCase();
-            //options.DescribeStringEnumsInCamelCase()
-            //options.UseReferencedDefinitionsForEnums()
-            //options.IgnoreObsoleteActions();
-            //options.IgnoreObsoleteProperties();
             options.SwaggerDoc("v1", new OpenApiInfo { Version = "v1", Title = "API V1" });
             options.SwaggerDoc("v2", new OpenApiInfo { Version = "v2", Title = "API V2" });
             options.SwaggerDoc("v3", new OpenApiInfo { Version = "v3", Title = "API V3" });
@@ -107,14 +103,8 @@ public static class SwaggerConfigurationExtensions
             #endregion
 
             #region Versioning
-
-            // Remove version parameter from all Operations
             options.OperationFilter<RemoveVersionParameters>();
-
-            //set version "api/v{version}/[controller]" from current swagger doc verion
             options.DocumentFilter<SetVersionInPaths>();
-
-            //Seperate and categorize end-points by doc version
             options.DocInclusionPredicate((docName, apiDesc) =>
             {
                 if (!apiDesc.TryGetMethodInfo(out var methodInfo)) return false;
@@ -128,10 +118,6 @@ public static class SwaggerConfigurationExtensions
             });
 
             #endregion
-
-            //If use FluentValidation then must be use this package to show validation in swagger (MicroElements.Swashbuckle.FluentValidation)
-            //options.AddFluentValidationRules();
-
             #endregion
         });
         return services;
@@ -141,14 +127,7 @@ public static class SwaggerConfigurationExtensions
     public static IApplicationBuilder UseSwaggerAndUI(this IApplicationBuilder app)
     {
         Guard.Against.Null(app, nameof(app));
-        //More info : https://github.com/domaindrivendev/Swashbuckle.AspNetCore
-        //Swagger middleware for generate "Open API Documentation" in swagger.json
-        app.UseSwagger( /*options =>
-        {
-            options.RouteTemplate = "api-docs/{documentName}/swagger.json";
-        }*/);
-
-        //Swagger middleware for generate UI from swagger.json
+        app.UseSwagger();
         app.UseSwaggerUI(options =>
         {
             options.SwaggerEndpoint("/swagger/v1/swagger.json", "V1 Docs");
@@ -156,35 +135,13 @@ public static class SwaggerConfigurationExtensions
             options.SwaggerEndpoint("/swagger/v3/swagger.json", "V3 Docs");
             options.SwaggerEndpoint("/swagger/v4/swagger.json", "V4 Docs");
             options.SwaggerEndpoint("/swagger/v5/swagger.json", "V5 Docs");
-
             #region Customizing
-
-            //// Display
-            //options.DefaultModelExpandDepth(2);
-            //options.DefaultModelRendering(ModelRendering.Model);
-            //options.DefaultModelsExpandDepth(-1);
-            //options.DisplayOperationId();
-            //options.DisplayRequestDuration();
+            options.DefaultModelRendering(ModelRendering.Example);
+            options.DisplayOperationId();
+            options.DisplayRequestDuration();
             options.DocExpansion(DocExpansion.None);
-            //options.EnableDeepLinking();
-            //options.EnableFilter();
-            //options.MaxDisplayedTags(5);
-            //options.ShowExtensions();
-
-            //// Network
-            //options.EnableValidator();
-            //options.SupportedSubmitMethods(SubmitMethod.Get);
-
-            //// Other
-            //options.DocumentTitle = "CustomUIConfig";
-            //options.InjectStylesheet("/ext/custom-stylesheet.css");
-            //options.InjectJavascript("/ext/custom-javascript.js");
-            //options.RoutePrefix = "api-docs";
-
             #endregion
         });
-
-        //ReDoc UI middleware. ReDoc UI is an alternative to swagger-ui
         app.UseReDoc(options =>
         {
             options.SpecUrl("/swagger/v1/swagger.json");
@@ -193,8 +150,6 @@ public static class SwaggerConfigurationExtensions
             options.SpecUrl("/swagger/v4/swagger.json");
             options.SpecUrl("/swagger/v5/swagger.json");
             #region Customizing
-            //By default, the ReDoc UI will be exposed at "/api-docs"
-            //options.RoutePrefix = "docs";
             options.DocumentTitle = "Melad Kamari";
             options.EnableUntrustedSpec();
             options.ScrollYOffset(10);

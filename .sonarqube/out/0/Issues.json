@@ -1,0 +1,1561 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-3.23524.11 (f43cd10b)",
+        "semanticVersion": "4.8.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/AddCustomApiVersioning.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 65,
+                  "endLine": 20,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/AddCustomApiVersioning.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 13,
+                  "endLine": 24,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/AddCustomApiVersioning.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 13,
+                  "endLine": 52,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/AddCustomApiVersioning.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 13,
+                  "endLine": 59,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/AddCustomApiVersioning.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 9,
+                  "endLine": 68,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 13,
+                  "endLine": 51,
+                  "endColumn": 98
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 13,
+                  "endLine": 37,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 13,
+                  "endLine": 66,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 25,
+                  "endLine": 99,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 13,
+                  "endLine": 133,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 1,
+                  "endLine": 147,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 13,
+                  "endLine": 163,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 13,
+                  "endLine": 169,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 197,
+                  "startColumn": 13,
+                  "endLine": 197,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private method '_cleanStringSqlServer'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Extensions/StringExtentions.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 25,
+                  "endLine": 112,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'name' to 'identifier' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Infra/SqlServer/ModelBuilderExtensions.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 36,
+                  "endLine": 9,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'name' to 'identifier' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Infra/SqlServer/ModelBuilderExtensions.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 38,
+                  "endLine": 12,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loops should be simplified using the \"Where\" LINQ method",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Extensions/EnumExtensions.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 31,
+                  "endLine": 21,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Extensions/EnumExtensions.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 17,
+                  "endLine": 22,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2248",
+          "level": "note",
+          "message": "The argument type, 'Object', must be the same as the enum type 'Enum'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Extensions/EnumExtensions.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 17,
+                  "endLine": 22,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3236",
+          "level": "warning",
+          "message": "Remove this argument from the method call; it hides the caller information.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Extensions/EnumExtensions.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 35,
+                  "endLine": 28,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 17,
+                  "endLine": 11,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 9,
+                  "endLine": 14,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 82,
+                  "endLine": 22,
+                  "endColumn": 84
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 9,
+                  "endLine": 24,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 13,
+                  "endLine": 26,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 9,
+                  "endLine": 29,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 13,
+                  "endLine": 31,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 13,
+                  "endLine": 34,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 9,
+                  "endLine": 37,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 13,
+                  "endLine": 39,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 13,
+                  "endLine": 42,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 9,
+                  "endLine": 45,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 13,
+                  "endLine": 47,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 13,
+                  "endLine": 53,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 9,
+                  "endLine": 56,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 13,
+                  "endLine": 58,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 13,
+                  "endLine": 61,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 13,
+                  "endLine": 69,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 17,
+                  "endLine": 70,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 106,
+                  "endLine": 70,
+                  "endColumn": 108
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 82,
+                  "endLine": 70,
+                  "endColumn": 84
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 13,
+                  "endLine": 81,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 17,
+                  "endLine": 82,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 81,
+                  "endLine": 82,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+2 (incl 1 for nesting)",
+              "12": "+2 (incl 1 for nesting)",
+              "13": "+1",
+              "14": "+2 (incl 1 for nesting)",
+              "15": "+2 (incl 1 for nesting)",
+              "16": "+2 (incl 1 for nesting)",
+              "17": "+3 (incl 2 for nesting)",
+              "18": "+1",
+              "19": "+1",
+              "2": "+1",
+              "20": "+2 (incl 1 for nesting)",
+              "21": "+3 (incl 2 for nesting)",
+              "22": "+1",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+1",
+              "5": "+2 (incl 1 for nesting)",
+              "6": "+2 (incl 1 for nesting)",
+              "7": "+1",
+              "8": "+2 (incl 1 for nesting)",
+              "9": "+2 (incl 1 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'Count'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/ApplySummariesOperationFilter.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 51,
+                  "endLine": 22,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3236",
+          "level": "warning",
+          "message": "Remove this argument from the method call; it hides the caller information.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 38,
+                  "endLine": 17,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3236",
+          "level": "warning",
+          "message": "Remove this argument from the method call; it hides the caller information.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 48,
+                  "endLine": 18,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3236",
+          "level": "warning",
+          "message": "Remove this argument from the method call; it hides the caller information.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 42,
+                  "endLine": 21,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3236",
+          "level": "warning",
+          "message": "Remove this argument from the method call; it hides the caller information.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 36,
+                  "endLine": 26,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3236",
+          "level": "warning",
+          "message": "Remove this argument from the method call; it hides the caller information.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 46,
+                  "endLine": 125,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 23,
+                  "endLine": 35,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 9,
+                  "endLine": 44,
+                  "endColumn": 14
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 13,
+                  "endLine": 56,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 13,
+                  "endLine": 62,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 9,
+                  "endLine": 73,
+                  "endColumn": 14
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 9,
+                  "endLine": 79,
+                  "endColumn": 14
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 9,
+                  "endLine": 85,
+                  "endColumn": 14
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 13,
+                  "endLine": 88,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 13,
+                  "endLine": 110,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 13,
+                  "endLine": 130,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 17,
+                  "endLine": 137,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+1",
+              "4": "+1",
+              "5": "+1",
+              "6": "+2 (incl 1 for nesting)",
+              "7": "+2 (incl 1 for nesting)",
+              "8": "+2 (incl 1 for nesting)",
+              "9": "+3 (incl 2 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3973",
+          "level": "warning",
+          "message": "Use curly braces or indentation to denote the code conditionally executed by this 'foreach'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Infra/SqlServer/ModelBuilderExtensions.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 9,
+                  "endLine": 84,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Infra/SqlServer/ModelBuilderExtensions.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 9,
+                  "endLine": 85,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2479",
+          "level": "warning",
+          "message": "Replace the control character at position 1 by its escape sequence '\\u200C'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Extensions/StringExtentions.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 22,
+                  "endLine": 94,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3236",
+          "level": "warning",
+          "message": "Remove this argument from the method call; it hides the caller information.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Swagger/SwaggerConfigurationExtensions.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 33,
+                  "endLine": 143,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loop should be simplified by calling Select(item => item.Entity))",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Extensions/StringExtentions.cs",
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 30,
+                  "endLine": 116,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1860",
+          "level": "note",
+          "message": "Prefer comparing 'Count' to 0 rather than using 'Any()', both for clarity and for performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Mediatr/ValidationBehaviour.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 29,
+                  "endLine": 25,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "DiagnosticPropertyKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1860",
+          "level": "note",
+          "message": "Prefer comparing 'Count' to 0 rather than using 'Any()', both for clarity and for performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/Mediatr/ValidationBehaviour.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 17,
+                  "endLine": 29,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "DiagnosticPropertyKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "S2589",
+          "level": "warning",
+          "message": "Change this expression which always evaluates to the same result.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/ApiResultFilterAttribute.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 35,
+                  "endLine": 35,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1859",
+          "level": "note",
+          "message": "Change type of variable 'pluralizer' from 'Microsoft.EntityFrameworkCore.Design.IPluralizer' to 'Melad.Common.Infra.SqlServer.HumanizerPluralizer' for improved performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Infra/SqlServer/ModelBuilderExtensions.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 21,
+                  "endLine": 23,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'propName'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/Extensions/StringExtentions.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 21,
+                  "endLine": 126,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2254",
+          "level": "note",
+          "message": "The logging message template should not vary between calls to 'LoggerExtensions.LogError(ILogger, Exception?, string?, params object?[])'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 41,
+                  "endLine": 46,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2254",
+          "level": "note",
+          "message": "The logging message template should not vary between calls to 'LoggerExtensions.LogError(ILogger, Exception?, string?, params object?[])'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 41,
+                  "endLine": 75,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2254",
+          "level": "note",
+          "message": "The logging message template should not vary between calls to 'LoggerExtensions.LogError(ILogger, Exception?, string?, params object?[])'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 41,
+                  "endLine": 81,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2254",
+          "level": "note",
+          "message": "The logging message template should not vary between calls to 'LoggerExtensions.LogError(ILogger, Exception?, string?, params object?[])'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Melad/RiderProjects/Melad/Melad.Common/Common/WebFramework/CustomExceptionHandlerMiddlewareExtensions.cs",
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 41,
+                  "endLine": 95,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1859": {
+          "id": "CA1859",
+          "shortDescription": "Use concrete types when possible for improved performance",
+          "fullDescription": "Using concrete types avoids virtual or interface call overhead and enables inlining.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1859",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1860": {
+          "id": "CA1860",
+          "shortDescription": "Avoid using 'Enumerable.Any()' extension method",
+          "fullDescription": "Prefer using 'IsEmpty', 'Count' or 'Length' properties whichever available, rather than calling 'Enumerable.Any()'. The intent is clearer and it is more performant than using 'Enumerable.Any()' extension method.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1860",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA2248": {
+          "id": "CA2248",
+          "shortDescription": "Provide correct 'enum' argument to 'Enum.HasFlag'",
+          "fullDescription": "'Enum.HasFlag' method expects the 'enum' argument to be of the same 'enum' type as the instance on which the method is invoked and that this 'enum' is marked with 'System.FlagsAttribute'. If these are different 'enum' types, an unhandled exception will be thrown at runtime. If the 'enum' type is not marked with 'System.FlagsAttribute' the call will always return 'false' at runtime.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2248",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA2254": {
+          "id": "CA2254",
+          "shortDescription": "Template should be a static expression",
+          "fullDescription": "The logging message template should not vary between calls.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2254",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S1144": {
+          "id": "S1144",
+          "shortDescription": "Unused private types or members should be removed",
+          "fullDescription": "This rule raises an issue when a private/internal type or member is never referenced in the code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1144",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Commented-out code distracts the focus from the actual executed code. It creates a noise that increases maintenance code. And because it is never executed, it quickly becomes out of date and invalid.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "An unused local variable is a variable that has been declared but is not used anywhere in the block of code where it is defined. It is dead code, contributing to unnecessary complexity and leading to confusion when reading the code. Therefore, it should be removed from your code to maintain clarity and efficiency.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2479": {
+          "id": "S2479",
+          "shortDescription": "Whitespace and control characters in string literals should be explicit",
+          "fullDescription": "Non-encoded control characters and whitespace characters are often injected in the source code because of a bad manipulation. They are either invisible or difficult to recognize, which can result in bugs when the string is not what the developer expects. If you actually need to use a control character use their encoded version:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2479",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2589": {
+          "id": "S2589",
+          "shortDescription": "Boolean expressions should not be gratuitous",
+          "fullDescription": "Gratuitous boolean expressions are conditions that do not change the evaluation of a program. This issue can indicate logical errors and affect the correctness of an application, as well as its maintainability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2589",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2971": {
+          "id": "S2971",
+          "shortDescription": "LINQ expressions should be simplified",
+          "fullDescription": "In the interests of readability, code that can be simplified should be simplified. To that end, there are several ways IEnumerable language integrated queries (LINQ) can be simplified. This not only improves readabilty but can also lead to improved performance.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2971",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3236": {
+          "id": "S3236",
+          "shortDescription": "Caller information arguments should not be provided explicitly",
+          "fullDescription": "Caller information attributes: CallerFilePathAttribute, CallerLineNumberAttribute, and CallerArgumentExpressionAttribute provide a way to get information about the caller of a method through optional parameters. But the arguments for these optional parameters are only generated if they are not explicitly defined in the call. Thus, specifying the argument values defeats the purpose of the attributes.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3236",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3267": {
+          "id": "S3267",
+          "shortDescription": "Loops should be simplified with \"LINQ\" expressions",
+          "fullDescription": "When a loop is filtering, selecting or aggregating, those functions can be handled with a clearer, more concise LINQ expression instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3267",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "This rule raises an issue when the code cognitive complexity of a function is above a certain threshold.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3973": {
+          "id": "S3973",
+          "shortDescription": "A conditionally executed single line should be denoted by indentation",
+          "fullDescription": "When the line immediately after conditional statements has neither curly braces nor indentation, the intent of the code is unclear and perhaps not executed as expected. Additionally, such code is confusing to maintainers.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3973",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "Parameters are part of the method signature and its identity.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

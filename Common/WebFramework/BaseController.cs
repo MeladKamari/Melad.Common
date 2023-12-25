@@ -11,7 +11,7 @@ namespace Melad.Common.WebFramework;
 public class BaseController : ControllerBase
 {
     #region Fields
-    protected readonly IMediator _mediator;
+    protected  IMediator _mediator;
     #endregion
     #region Ctor
     /// <summary>
