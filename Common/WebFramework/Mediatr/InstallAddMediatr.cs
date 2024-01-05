@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Melad.Common.WebFramework.Mediatr;
 
-public static class CustomAddMediatr
+public static class InstallAddMediatr
 {
     public static IServiceCollection AddMediatR(this IServiceCollection services, params Assembly[] assemblies)
     {

@@ -11,13 +11,13 @@ namespace Melad.Common.WebFramework;
 public class BaseController : ControllerBase
 {
     #region Fields
-    protected  IMediator _mediator;
+    public  IMediator _mediator;
     #endregion
     #region Ctor
     /// <summary>
     /// Creates a BaseController
     /// </summary>
-    protected BaseController(IMediator mediator)
+    public BaseController(IMediator mediator)
     {
         _mediator = mediator;
     }

@@ -5,7 +5,7 @@ using Serilog.Events;
 using Serilog.Sinks.Elasticsearch;
 namespace Melad.Common.WebFramework.Serilog;
 
-public static class CustomAddSerilog
+public static class InstallSerilog
 {
     /// <summary>
     /// Add Serilog Console And Elastic

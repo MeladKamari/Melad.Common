@@ -23,6 +23,11 @@ public abstract class BaseEntity : BaseEntity<int>
 {
 }
 
+public interface IHasRowVersion
+{
+    byte[] Version { get; set; }
+}
+
 public interface ISoftDelete
 {
     public bool IsDeleted { get; set; }

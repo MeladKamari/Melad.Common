@@ -12,13 +12,13 @@
     <PackageTags>C#,.Net</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageOutputPath>.</PackageOutputPath>
-    <Version>1.0.7</Version>
+    <Version>1.0.15</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore"/>
     <PackageReference Include="MediatR"/>
     <PackageReference Include="Microsoft.AspNetCore.Http"/>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning"/>
@@ -52,6 +52,8 @@
     <PackageReference Include="HotChocolate.Types.Selections"/>
     <PackageReference Include="HotChocolate.Data"/>
     <PackageReference Include="Bogus"/>
+    <PackageReference Include="Scrutor"  />
+    <PackageReference Include="MiniProfiler.AspNetCore.Mvc"  />
   </ItemGroup>
   <ItemGroup>
     <None Update="icon.jpg">

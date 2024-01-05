@@ -11,7 +11,7 @@ using ServiceCollectionExtensions = Swashbuckle.AspNetCore.Filters.ServiceCollec
 
 namespace Melad.Common.WebFramework.Swagger;
 
-public static class SwaggerConfigurationExtensions
+public static class InstallSwagger
 {
     public static IServiceCollection AddSwagger(this IServiceCollection services,string oauthAddress)
     {

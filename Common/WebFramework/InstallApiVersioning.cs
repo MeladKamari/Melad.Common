@@ -10,7 +10,7 @@ using Newtonsoft.Json.Converters;
 
 namespace Melad.Common.WebFramework;
 
-public static class CustomApiVersioning
+public static class InstallApiVersioning
 {
     public static IServiceCollection AddCustomApiVersioning(this IServiceCollection services)
     {
