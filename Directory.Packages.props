@@ -25,7 +25,7 @@
     <PackageVersion Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
     <PackageVersion Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
     <PackageVersion Include="FluentValidation.AspNetCore" Version="11.3.0" />
-    <PackageVersion Include="Microsoft.Extensions.Identity.Stores" Version="8.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Identity.Stores" Version="8.0.2" />
     <PackageVersion Include="Polly" Version="8.3.0" />
     <PackageVersion Include="Serilog" Version="3.1.1" />
     <PackageVersion Include="Serilog.Settings.Configuration" Version="8.0.0" />
