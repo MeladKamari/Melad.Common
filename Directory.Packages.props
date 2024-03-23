@@ -4,9 +4,9 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.1" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
+    <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
+   <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.3" />
     <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" Version="8.0.0" />
     <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.1" />
     <PackageVersion Include="MediatR" Version="12.2.0" />
@@ -15,17 +15,17 @@
     <PackageVersion Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageVersion Include="Pluralize.NET" Version="1.0.2" />
     <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.2" />
-    <PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="7.3.1" />
+    <PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="7.4.1" />
     <PackageVersion Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageVersion Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
-    <PackageVersion Include="Swashbuckle.AspNetCore.Filters" Version="8.0.0" />
+    <PackageVersion Include="Swashbuckle.AspNetCore.Filters" Version="8.0.1" />
     <PackageVersion Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.5.0" />
     <PackageVersion Include="Swashbuckle.AspNetCore.ReDoc" Version="6.5.0" />
     <PackageVersion Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
     <PackageVersion Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
     <PackageVersion Include="FluentValidation.AspNetCore" Version="11.3.0" />
-    <PackageVersion Include="Microsoft.Extensions.Identity.Stores" Version="8.0.2" />
+    <PackageVersion Include="Microsoft.Extensions.Identity.Stores" Version="8.0.3" />
     <PackageVersion Include="Polly" Version="8.3.0" />
     <PackageVersion Include="Serilog" Version="3.1.1" />
     <PackageVersion Include="Serilog.Settings.Configuration" Version="8.0.0" />
@@ -34,15 +34,15 @@
     <PackageVersion Include="Serilog.Sinks.Elasticsearch" Version="9.0.3" />
     <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="8.0.2" />
   <PackageVersion Include="Microsoft.Extensions.Http.Polly" Version="8.0.2" />
-    <PackageVersion Include="Ardalis.GuardClauses" Version="4.4.0" />
+    <PackageVersion Include="Ardalis.GuardClauses" Version="4.5.0" />
     <PackageVersion Include="Bogus" Version="35.4.0" />
     <PackageVersion Include="AutoMapper" Version="12.0.1" />
     <PackageVersion Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageVersion Include="HotChocolate.Types.Filters" Version="13.8.1" />
-    <PackageVersion Include="HotChocolate.AspNetCore" Version="13.8.1" />
+    <PackageVersion Include="HotChocolate.AspNetCore" Version="13.9.0" />
     <PackageVersion Include="HotChocolate.Types.Sorting" Version="13.9.0" />
     <PackageVersion Include="HotChocolate.Types.Selections" Version="10.5.5" />
-    <PackageVersion Include="HotChocolate.Data" Version="13.8.1" />
+    <PackageVersion Include="HotChocolate.Data" Version="13.9.0" />
     <PackageVersion Include="Scrutor" Version="4.2.2" />
     <PackageVersion Include="MiniProfiler.AspNetCore.Mvc" Version="4.3.8" />
   </ItemGroup>
