@@ -31,7 +31,7 @@ public static class InstallSerilog
                                   $"-{environment?.ToLower().Replace(".", "-")}-{TimeProvider.System.GetUtcNow():yyyy-MM}",
                     ModifyConnectionSettings = x =>
                         x.BasicAuthentication(userName, password),
-                    FailureCallback = e => Console.WriteLine("Unable submit event to ElasticSearch" + e.MessageTemplate),
+                    FailureCallback = (l,e) => Console.WriteLine("Unable submit event to ElasticSearch" + e.InnerException),
                     EmitEventFailure = EmitEventFailureHandling.WriteToSelfLog |
                                        EmitEventFailureHandling.WriteToFailureSink |
                                        EmitEventFailureHandling.RaiseCallback,
