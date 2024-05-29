@@ -42,7 +42,7 @@
     <PackageVersion Include="HotChocolate.AspNetCore" Version="13.9.0" />
     <PackageVersion Include="HotChocolate.Types.Sorting" Version="13.9.0" />
     <PackageVersion Include="HotChocolate.Types.Selections" Version="10.5.5" />
-    <PackageVersion Include="HotChocolate.Data" Version="13.9.0" />
+    <PackageVersion Include="HotChocolate.Data" Version="13.9.5" />
     <PackageVersion Include="Scrutor" Version="4.2.2" />
     <PackageVersion Include="MiniProfiler.AspNetCore.Mvc" Version="4.3.8" />
   </ItemGroup>
