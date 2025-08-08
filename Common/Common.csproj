@@ -37,7 +37,6 @@
     <PackageReference Include="FluentValidation.AspNetCore"/>
     <PackageReference Include="Microsoft.Extensions.Identity.Stores"/>
     <PackageReference Include="Polly"/>
-    <PackageReference Include="Serilog"/>
     <PackageReference Include="Serilog.Settings.Configuration"/>
     <PackageReference Include="Serilog.AspNetCore"/>
     <PackageReference Include="Serilog.Sinks.Console"/>

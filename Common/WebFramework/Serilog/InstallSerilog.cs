@@ -3,6 +3,8 @@ using Microsoft.Extensions.Hosting;
 using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.Elasticsearch;
+using Serilog.Sinks.SystemConsole.Themes;
+
 namespace Melad.Common.WebFramework.Serilog;
 
 public static class InstallSerilog
@@ -37,9 +39,8 @@ public static class InstallSerilog
                                        EmitEventFailureHandling.RaiseCallback,
                     AutoRegisterTemplate = true,
                 })
-                
                 .ReadFrom.Configuration(context.Configuration)
-                .WriteTo.Console();
+                .WriteTo.Console(theme: SystemConsoleTheme.Colored, applyThemeToRedirectedOutput: true);
         });
         return hostBuilder;
     }
